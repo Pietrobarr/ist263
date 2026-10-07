@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pietro Barricelli - Bio and Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pietro Barricelli</h1>
+
+    <img src="../images/pietro-photo-small.jpg" alt="Photo of me">
+         
+
+    <h2>About Me</h2>
+    <p>I am a student at Syracuse University. I am interested in business and technology. Outside of school I enjoy soccer, basketball, video games, and traveling.</p>
+
+    <h2>Contact</h2>
+    <p>405 University Place<br>Syracuse NY 13210</p>
+
+    <p>
+        <a href="https://www.linkedin.com/in/pietro-barricelli/" target="_blank">
+            My LinkedIn Profile<br>
+            <img src="../images/logo-sized.png" alt="LinkedIn logo">
+        </a>
+    </p>
+
+    <p><a href="mailto:pbarricelli@syr.edu">Email me</a></p>
+
+    <h2>Contact me</h2>
+    <form action="https://formspree.io/f/xvkgoovw" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="reason">Reason for Contacting me:</label>
+        <select id="reason" name="reason" required>
+            <option value="">Select a reason</option>
+            <option value="job">Job Inquiry</option>
+            <option value="project">Project Collaboration</option>
+            <option value="question">General Question</option>
+        </select><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

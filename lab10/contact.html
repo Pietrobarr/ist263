@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pietro Barricelli - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <nav>
+    <a href="index.html">Home</a> <span>|</span>
+    <a href="skills.html">Skills</a> <span>|</span>
+    <a href="contact.html">Contact</a>
+</nav>
+
+    <h1>Pietro Barricelli</h1>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>I am a student at Syracuse University. I am interested in business and technology. Outside of school I enjoy soccer, basketball, video games, and traveling.</p>
+        </section>
+
+        <div class="contact-row">
+            <div class="contact-column">
+                <h2>Contact</h2>
+
+                <p>
+                    405 University Place<br>
+                    Syracuse NY 13210
+                </p>
+            </div>
+
+            <div class="contact-column">
+                <h2>Links</h2>
+
+                <p>
+                    <a href="mailto:pbarricelli@syr.edu">Email me</a>
+                </p>
+
+                <p>
+                    <a href="https://www.linkedin.com/in/pietro-barricelli/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        My LinkedIn Profile<br>
+                        <img src="../images/logo-sized.png"
+                             alt="LinkedIn logo"
+                             class="linkedin-logo">
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-row">
+            <div class="contact-column">
+                <h2>Contact me</h2>
+
+                <form action="https://formspree.io/f/xvkgoovw" method="post">
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <label for="reason">Reason for Contacting me:</label><br>
+                    <select id="reason" name="reason" required>
+                        <option value="">Select a reason</option>
+                        <option value="job">Job Inquiry</option>
+                        <option value="project">Project Collaboration</option>
+                        <option value="question">General Question</option>
+                    </select>
+                    <br><br>
+
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              cols="40"
+                              required></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div class="contact-column">
+                <h2>Map</h2>
+
+                <iframe
+                    src="https://maps.google.com/maps?q=405%20University%20Place%20Syracuse%20NY%2013210&amp;output=embed"
+                    title="Map of 405 University Place in Syracuse"
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <p class="motto">Always keep learning.</p>
+        <p>&copy; 2026 Pietro Barricelli</p>
+        <div class="clear"></div>
+    </footer>
+
+</body>
+</html>

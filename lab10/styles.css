@@ -86,15 +86,16 @@ iframe {width: 100%; height: 380px; border: 0; border-radius: 8px;}
 .contact-row {
     flex-wrap: wrap;}
 
-@media {max-width: 800px;} 
-{
+@media (max-width: 800px) {
+    nav {
+        display: block;}
+
     nav a {
         display: block;
         width: 100%;
         padding: 10px 0;
-        box-sizing: border-box;
-    }
+        box-sizing: border-box;}
 
     nav span {
         display: none;}
-}
+    }

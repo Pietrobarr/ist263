@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Shell Game Preview</title>
-    <link rel="stylesheet" href="https://peopel-su.github.io/ist263/images/animate2.css2">
+    <link rel="stylesheet" href="https://peopel-su.github.io/ist263/images/animate2.css">
 
      <style>
         .container {
@@ -23,11 +23,11 @@
         }
     </style>
     <script>
-    function WinnerMessage() {
+    function Winner() {
             document.getElementById("messages").innerHTML = "You Won!";
          }
     function TryAgain() {
-            document.getElementById("messages").innerHTML = "Wrong Shell - Try Again";
+            document.getElementById("messages").innerHTML = "Wrong Shell Try Again";
         }
     function ShuffleShells() {
             document.getElementById("first").style.order = Math.floor((Math.random() * 3) + 2);
@@ -39,7 +39,7 @@
     <h1> Choose a wallnut </h1>
 
     <div class= "container" >
-        <img src="https://peopel-su.github.io/ist263/images/walnut.png" alt="first walnut" id="first" class="first" onclick="WinnerMessage();">
+        <img src="https://peopel-su.github.io/ist263/images/walnut.png" alt="first walnut" id="first" class="first" onclick="Winner();">
         <img src="https://peopel-su.github.io/ist263/images/walnut.png" alt="second walnut" id="second" class="second" onclick="TryAgain();">
         <img src="https://peopel-su.github.io/ist263/images/walnut.png" alt="third walnut" id="third" class="third" onclick="TryAgain();">
 

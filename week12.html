@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>more java script</title>
+    <script>
+    function wrongAnswer () {
+        document.getElementById("wrong").innerHTML = "<span style ='color: red;'>True is the wrong answer! </span>"
+    }
+    function rightAnswer () {
+        document.getElementById("correct").innerHTML = "<span style ='color: green;'>False is the right answer! </span>"
+    }
+    </script>
+</head>
+
+<body>
+    <h1> My java script quiz</h1>
+    <p> My javascript are the same thing</p>
+    <p onclick="wrongAnswer();" id=wrong>True</P>
+    <p onclick="rightAnswer();" id=correct>false</P>
+
+
+</body>
+
+</html>
